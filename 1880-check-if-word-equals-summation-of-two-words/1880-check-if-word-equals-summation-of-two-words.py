@@ -1,9 +1,9 @@
 class Solution:
     def isSumEqual(self, firstWord: str, secondWord: str, targetWord: str) -> bool:
-        k = list(map(chr, range(97, 123)))
-        v = range(0,26)
+        k = list(map(chr, range(97, 107)))
+        v = range(0,10)
         res = {k[i]: v[i] for i in range(len(k))}
-        # # # # # print(res)
+        print(res)
         m = list(firstWord)
         c=""
         for n in m:

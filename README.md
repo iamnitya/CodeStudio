@@ -1,1 +1,2 @@
-LeetCode Solutions in Python    
+LeetCode Solutions in Python mostly
+Some have solutions in C
